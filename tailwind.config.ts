@@ -11,7 +11,11 @@ export default {
       colors: {
 
       },
+      fontFamily:{
+        default:["Karla"],
+      }
     },
+
   },
   plugins: [],
 } satisfies Config;

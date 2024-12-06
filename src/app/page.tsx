@@ -11,7 +11,7 @@ import Stack from "./Components/Stack/page";
 export default function Home() {
   return (
    <>
-   <div className="w-full">
+   <div className="w-full font-default">
    <Navbar/>
    <Hero/>
    <Logo/>

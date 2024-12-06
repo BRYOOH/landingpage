@@ -4,7 +4,7 @@ import avatar1 from '@/app/Assets/avatar1.jpeg'
 import avatar2 from '@/app/Assets/avatar2.jpeg'
 import avatar3 from '@/app/Assets/avatar3.jpeg'
 import avatar4 from '@/app/Assets/avatar4.jpeg'
-import run from '@/app/Assets/run.gif'
+
 
 const Feature = [
     {id:'1',name:"React js"},
@@ -77,8 +77,8 @@ const Services = () => {
                         <div className='w-16 bg-slate-200 border p-2 rounded-2xl outline outline-offset-4 outline-transparent group-hover:outline-lime-400 transition-all duration-500 group-hover:translate-y-2 delay-300'>Crtl</div>
                     </div>
                     <div className=''>
-                        <h3 className='text-2xl font-medium mt-6'> Speed optimization</h3>
-                        <p className='mt-3 text-white/50'>We optimize your webpage for quick and efficient performance</p>
+                        <h3 className='text-2xl font-medium mt-6'> Responsive websites</h3>
+                        <p className='mt-3 text-white/50'>We create colorful and responsive websites with modern HTML practices</p>
                     </div>
                 </div>
             </div>

@@ -13,11 +13,11 @@ const Faqs = () => {
         <div className="flex flex-col items-center gap-6">
         <h1 className="border border-lime-400 text-lime-400 rounded-full px-4 py-1.5 uppercase text-2xl"> &#10038; Features</h1>
         <h2 className="text-6xl font-bold mt-6 text-center"> Got questions? We have the  <span className="text-lime-500"> answers</span></h2>
-        <div className="mt-12 flex gap-6  flex-col">
+        <div className="mt-12 flex gap-6 p-4 flex-col">
             {data.map((quiz,quizIndex)=>(
                 <div key={quizIndex} 
                 onClick={()=>setIndex(quizIndex)}
-                className=' rounded-xl p-4 bg-neutral-700  '>
+                className=' rounded-xl p-4 bg-neutral-700 w-full md:w-[800px]  '>
                     <div className='flex justify-between'>
                     <h1 className='font-medium'>{quiz.question}</h1>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" 

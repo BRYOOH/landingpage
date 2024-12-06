@@ -12,8 +12,8 @@ const Stack = () => {
         <span className='text-6xl text-lime-500 font-extrabold'>Tech <span className='bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent'>stacks</span> we specialize in:</span>
         <div className='flex flex-col md:flex-row mt-12 md:mt-8 gap-10 items-center justify-center'>
         <div className='flex flex-col lg:flex-row md:flex-1 items-center justify-center gap-12'>
-            <p className='text-4xl text-center  text-white font-medium'>Showcasing <span className='bg-gradient-to-l from-purple-500 to-pink-500 bg-clip-text text-transparent'>skills and expertises</span> </p>
-            <p className='text-center inline-flex text-2xl text-white/50'>These are our most valuable programming skills for developing the customers desired applications. </p>
+            <p className='text-4xl text-center uppercase font-bold'><span className='bg-gradient-to-l from-purple-500 to-pink-500 bg-clip-text text-transparent'>skills and expertises</span> </p>
+            <p className='text-center inline-flex font-bold text-3xl text-white/50'>These are our most valuable programming skills for developing the customers desired applications. </p>
         </div>
         <div className=' flex md:flex-1  mt-8 lg:mt-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent) h-[400px] md:h-[800px] gap-4  overflow-hidden '>
           <div className='grid md:grid-cols-2 grid-cols-1 gap-4 '>

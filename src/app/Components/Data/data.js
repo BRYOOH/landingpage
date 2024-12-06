@@ -7,24 +7,24 @@ import mysql from '@/app/Assets/mysql.jpeg'
 
  export const data =[
     {
-        question:"How often do you collaborate with external professionals?",
-        answer:"We have collaborated with external expertise in projects with multiple stacks required."
+        question:"What services does your company offer?",
+        answer:"We provide end-to-end software development services, including web and mobile application development, UI/UX design, API integration, database management, and system maintenance. Additionally, we offer consultancy on software architecture, cloud computing solutions, and digital transformation strategies. Whether you need a scalable e-commerce platform, a bespoke business tool, or a cutting-edge tech innovation, we’re equipped to bring your vision to life."
+    },
+    {
+        question:"What industries do you specialize in serving?",
+        answer:"Our expertise spans multiple industries, including healthcare, e-commerce, education, logistics, real estate, and fitness technology. We understand that each industry has unique requirements, and our team tailors solutions to meet your specific challenges. From secure medical platforms to robust e-commerce systems, we’ve delivered successful projects across diverse fields."
+    },
+    {
+        question:"Do you offer post-launch support?",
+        answer:"Yes, we offer comprehensive post-launch support to ensure your project continues to perform optimally. Our support includes monitoring for bugs or performance issues, applying updates, scaling the product as your business grows, and adding new features upon request. We aim to provide long-term value to our clients by keeping their systems reliable and up-to-date."
+    },
+    {
+        question:"Can you work with our existing software or system?",
+        answer:"Absolutely! We’re experienced in integrating new solutions with existing systems to ensure smooth interoperability. Whether you need API integrations, data migration, or enhancements to legacy software, we can handle it without disrupting your current operations."
     },
     {
         question:"How often do you collaborate with external professionals?",
-        answer:"We have collaborated with external expertise in projects with multiple stacks required."
-    },
-    {
-        question:"How often do you collaborate with external professionals?",
-        answer:"We have collaborated with external expertise in projects with multiple stacks required."
-    },
-    {
-        question:"How often do you collaborate with external professionals?",
-        answer:"We have collaborated with external expertise in projects with multiple stacks required."
-    },
-    {
-        question:"How often do you collaborate with external professionals?",
-        answer:"We have collaborated with external expertise in projects with multiple stacks required."
+        answer:"At Layers, collaboration is key to delivering exceptional solutions. While we pride ourselves on our in-house expertise across a wide range of technologies, we occasionally collaborate with external professionals when a specific technology stack or unique specialization is not available within our team."
     },
  ];
 
