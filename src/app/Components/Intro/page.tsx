@@ -1,6 +1,5 @@
 "use client";
 import { useScroll, useTransform } from "framer-motion"
-import { span } from "framer-motion/client";
 import { useEffect, useRef, useState } from "react";
 import { twMerge } from "tailwind-merge";
 
@@ -31,7 +30,7 @@ const Intro = () => {
       </div>
         <div className="mt-10 text-4xl md:text-5xl lg:text-6xl text-center px-4 md:px-10 lg:px-20 justify-center">
             <p className=" text-white font-medium" >
-               <span className="">Layers is a modern application web service provide with </span> 
+               Layers is a modern application web service provide with 
                <span>
                {words.map((word,wordIndex)=>(
                 <span 

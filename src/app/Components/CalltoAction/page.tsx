@@ -6,7 +6,7 @@ import { twMerge } from 'tailwind-merge';
 const CalltoAction = () => {
   
   const [isHovered,setIsHovered] = useState(false);
-  const animation = useRef<AnimationPlaybackControls>();
+  const animation = useRef<AnimationPlaybackControls>(null);
   const [scope,animate] = useAnimate();
 
   useEffect(()=>{
