@@ -13,6 +13,9 @@
 # testing
 /coverage
 
+# next.js
+/.next/
+/out/
 
 # production
 /build
@@ -20,6 +23,9 @@
 # misc
 .DS_Store
 *.pem
+
+# vercel
+.vercel 
 
 # debug
 npm-debug.log*
