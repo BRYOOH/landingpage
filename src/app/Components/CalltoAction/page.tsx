@@ -1,5 +1,5 @@
 'use client';
-import { AnimationPlaybackControls, motion, MotionProps, useAnimate } from 'framer-motion'
+import { AnimationPlaybackControls, motion, useAnimate } from 'framer-motion'
 import React, { useEffect, useRef, useState } from 'react'
 import { twMerge } from 'tailwind-merge';
 
