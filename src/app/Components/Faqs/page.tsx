@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
+
 const Faqs = () => {
 
   const [Index, setIndex] = useState(0);
